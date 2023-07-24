@@ -71,9 +71,10 @@ final class WordViewController: UIViewController {
     }
     
     @IBAction private func tapTextFieldKeyboard(_ sender: UITextField) {
-        guard let input = sender.text, !input.isEmpty
+        guard let input = sender.text,
+              input.count >= 2
         else {
-            resultLabel.text = "검색어를 입력해주세요!"
+            presentShortWordAlert()
             return
         }
         
@@ -86,5 +87,17 @@ final class WordViewController: UIViewController {
     
     @IBAction private func tapGestureTapped(_ sender: Any) {
         view.endEditing(true)
+    }
+    
+    private func presentShortWordAlert() {
+        let alertController = UIAlertController(
+            title: nil,
+            message: "검색어를 2글자 이상 입력해주세요!",
+            preferredStyle: .alert
+        )
+        let alertAction = UIAlertAction(title: "확인", style: .default)
+        alertController.addAction(alertAction)
+        
+        present(alertController, animated: true)
     }
 }

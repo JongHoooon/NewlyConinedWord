@@ -16,6 +16,7 @@
 		EDA513E82A68DABC000022C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA513E62A68DABC000022C0 /* Main.storyboard */; };
 		EDA513EA2A68DABE000022C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA513E92A68DABE000022C0 /* Assets.xcassets */; };
 		EDA513ED2A68DABE000022C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA513EB2A68DABE000022C0 /* LaunchScreen.storyboard */; };
+		EDBEB0DE2A6FB03400290B1A /* NewlyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBEB0DD2A6FB03400290B1A /* NewlyWord.swift */; };
 		EDC55CB52A6A4AE700FF6EF9 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC55CB42A6A4AE700FF6EF9 /* WordViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		EDA513E92A68DABE000022C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA513EC2A68DABE000022C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA513EE2A68DABE000022C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDBEB0DD2A6FB03400290B1A /* NewlyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewlyWord.swift; sourceTree = "<group>"; };
 		EDC55CB42A6A4AE700FF6EF9 /* WordViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 			children = (
 				ED1C90E82A6A0F1300975FDA /* AutoLayoutPractice.storyboard */,
 				EDC55CB42A6A4AE700FF6EF9 /* WordViewController.swift */,
+				EDBEB0DD2A6FB03400290B1A /* NewlyWord.swift */,
 				ED7FFBD92A6AA4C50010FA46 /* UIButtonConfiguration+Extension.swift */,
 			);
 			path = NewlyCoinedWord;
@@ -181,6 +184,7 @@
 				EDA513E12A68DABC000022C0 /* AppDelegate.swift in Sources */,
 				EDA513E32A68DABC000022C0 /* SceneDelegate.swift in Sources */,
 				ED7FFBDA2A6AA4C50010FA46 /* UIButtonConfiguration+Extension.swift in Sources */,
+				EDBEB0DE2A6FB03400290B1A /* NewlyWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

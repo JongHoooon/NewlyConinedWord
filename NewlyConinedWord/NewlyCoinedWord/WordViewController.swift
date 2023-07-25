@@ -78,8 +78,8 @@ final class WordViewController: UIViewController {
             return
         }
         
-        if let meaning = newlyWordDict[input.lowercased()] {
-            resultLabel.text = meaning
+        if let newlyWord = NewlyWord(rawValue: input) {
+            resultLabel.text = newlyWord.mean
         } else {
             resultLabel.text = "찾는 결과가 없습니다."
         }
